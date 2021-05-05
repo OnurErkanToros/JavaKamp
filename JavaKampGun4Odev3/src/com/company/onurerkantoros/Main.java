@@ -10,6 +10,6 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisCheckManager());
-        customerManager.save(new Customer(1,"Onur Erkan","Toros","12312312312",1999));
+        customerManager.save(new Customer(1,"Onur Erkan","Toros","12312312312",1991));
     }
 }
