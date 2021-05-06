@@ -1,6 +1,8 @@
 package com.company.onurerkantoros.models;
 
-public class Game {
+import com.company.onurerkantoros.abstracts.Entity;
+
+public class Game implements Entity {
     private int id;
     private String name;
     private double price;

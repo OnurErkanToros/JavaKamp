@@ -1,6 +1,8 @@
 package com.company.onurerkantoros.models;
 
-public class Campaign{
+import com.company.onurerkantoros.abstracts.Entity;
+
+public class Campaign implements Entity {
     private int id;
     private String campaignName;
     private double discount;

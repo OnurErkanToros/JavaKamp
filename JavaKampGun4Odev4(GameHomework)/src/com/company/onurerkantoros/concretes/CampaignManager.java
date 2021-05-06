@@ -24,7 +24,7 @@ public class CampaignManager implements CampaignService {
 
     @Override
     public void campaignSale(Campaign campaign, Game game) {
-        double indirim= game.getPrice()-(campaign.getDiscount()*game.getPrice());
+        double indirim= (campaign.getDiscount()*game.getPrice())/100;
         System.out.println(game.getName()+" isimli oyuna "+indirim+" TL indirim uygulandı.");
 
     }
