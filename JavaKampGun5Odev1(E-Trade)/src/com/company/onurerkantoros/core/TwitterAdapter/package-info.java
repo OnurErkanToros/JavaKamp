@@ -1,0 +1,1 @@
+package com.company.onurerkantoros.core.TwitterAdapter;
