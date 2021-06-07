@@ -11,7 +11,7 @@ import javax.management.relation.RelationSupport;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/systempersons")
+@RequestMapping("/api/systemPersons")
 public class SystemPersonsController {
     @Autowired
     private SystemPersonService systemPersonService;

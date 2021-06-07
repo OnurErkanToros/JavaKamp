@@ -15,7 +15,7 @@ import java.sql.Timestamp;
 @Table(name = "system_personnels")
 @AllArgsConstructor
 @NoArgsConstructor
-@PrimaryKeyJoinColumn(name = "id",referencedColumnName = "id")
+@PrimaryKeyJoinColumn(name = "systemperson_id",referencedColumnName = "id")
 public class SystemPerson extends User{
 
 

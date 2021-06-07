@@ -15,7 +15,7 @@ import javax.persistence.*;
 public class Position implements Positions {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+    @Column(name = "position_id")
     private int id;
 
     @Column(name = "position_name")

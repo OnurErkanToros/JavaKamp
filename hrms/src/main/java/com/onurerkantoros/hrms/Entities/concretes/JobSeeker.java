@@ -12,7 +12,7 @@ import java.sql.Date;
 @Table(name = "job_seekers")
 @AllArgsConstructor
 @NoArgsConstructor
-@PrimaryKeyJoinColumn(name = "id",referencedColumnName = "id")
+@PrimaryKeyJoinColumn(name = "jobseeker_id",referencedColumnName = "id")
 public class JobSeeker extends User {
 
     @Column(name = "first_name")
@@ -26,4 +26,5 @@ public class JobSeeker extends User {
 
     @Column(name = "birth_date")
     private Date yearOfBirth;
+
 }

@@ -18,7 +18,7 @@ public class SystemPersonManager implements SystemPersonService {
 
     @Override
     public DataResult<List<SystemPerson>> getAll() {
-        return new SuccessDataResult<List<SystemPerson>>(this.systemPersonsDao.findAll());
+        return new SuccessDataResult<List<SystemPerson>>(this.systemPersonsDao.findAll(),"Bütün sistem personeli listelendi.");
     }
 
     @Override
