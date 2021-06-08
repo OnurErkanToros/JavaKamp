@@ -1,7 +1,7 @@
 package com.onurerkantoros.hrms.Business.concretes;
 
 import com.onurerkantoros.hrms.Business.abstracts.JobSeekerService;
-import com.onurerkantoros.hrms.Cores.MernisService.MernisService;
+import com.onurerkantoros.hrms.Cores.ForeignServices.MernisService.MernisService;
 import com.onurerkantoros.hrms.Cores.Utilities.Result.*;
 import com.onurerkantoros.hrms.DataAccess.abstracts.JobSeekersDao;
 import com.onurerkantoros.hrms.Entities.concretes.JobSeeker;

@@ -1,4 +1,4 @@
-package com.onurerkantoros.hrms.Cores.MernisService;
+package com.onurerkantoros.hrms.Cores.ForeignServices.MernisService;
 
 public class FakeMernisServiceAdapter implements MernisService{
     @Override

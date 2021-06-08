@@ -1,6 +1,6 @@
-package com.onurerkantoros.hrms.Cores.MernisService;
+package com.onurerkantoros.hrms.Cores.ForeignServices.MernisService;
 
-import com.onurerkantoros.hrms.Cores.MernisService.Mernis.DSWKPSPublicSoap;
+import com.onurerkantoros.hrms.Cores.ForeignServices.MernisService.Mernis.DSWKPSPublicSoap;
 
 public class MernisServiceAdapter implements MernisService {
     @Override

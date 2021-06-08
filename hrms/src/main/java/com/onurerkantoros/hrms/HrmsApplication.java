@@ -1,5 +1,7 @@
 package com.onurerkantoros.hrms;
 
+import com.cloudinary.Cloudinary;
+import com.cloudinary.utils.ObjectUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -23,6 +25,15 @@ public class HrmsApplication {
 				.apis(RequestHandlerSelectors.any())
 				.paths(PathSelectors.any())
 				.build();
+	}
+
+	@Bean
+	public Cloudinary cloudinaryService(){
+		return new Cloudinary(ObjectUtils.asMap(
+				"cloud_name", "onurerkatoroscloud",
+				"api_key", "onurerkatoroscloud",
+				"api_secret", "B2PuZ5z96e5MgoMrx-46Ei7-lbc")
+		);
 	}
 
 }

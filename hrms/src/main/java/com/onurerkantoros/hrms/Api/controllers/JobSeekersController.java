@@ -1,8 +1,7 @@
 package com.onurerkantoros.hrms.Api.controllers;
 
 import com.onurerkantoros.hrms.Business.abstracts.JobSeekerService;
-import com.onurerkantoros.hrms.Cores.MernisService.FakeMernisServiceAdapter;
-import com.onurerkantoros.hrms.Cores.MernisService.MernisServiceAdapter;
+import com.onurerkantoros.hrms.Cores.ForeignServices.MernisService.FakeMernisServiceAdapter;
 import com.onurerkantoros.hrms.Cores.Utilities.Result.DataResult;
 import com.onurerkantoros.hrms.Cores.Utilities.Result.Result;
 import com.onurerkantoros.hrms.Cores.Utilities.Result.SuccessDataResult;
